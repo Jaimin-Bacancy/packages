@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	routes.IntitailizeRoutes()
+	routes.InitializeRoutes()
 	routes.StartServer()
 }
