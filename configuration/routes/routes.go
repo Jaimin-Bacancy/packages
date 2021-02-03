@@ -12,8 +12,8 @@ func StartServer() {
 	http.ListenAndServe(":9092", nil)
 }
 
-//IntitailizeRoutes is...
-func IntitailizeRoutes() {
+//InitializeRoutes is...
+func InitializeRoutes() {
 	http.HandleFunc("/index", controller.CustomerIndexpageProcess)
 	http.HandleFunc("/", controller.CustomerIndexpageProcess)
 	http.HandleFunc("/customer", controller.CustomerDisplaypageProcess)
